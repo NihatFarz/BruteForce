@@ -20,14 +20,23 @@
 <p align="center">
 🇱🇷-Copy the following codes to Termux for Setup. 
 <br>
-
- 1/`git clone https://github.com/NihatFarz/BruteForce`
-  
- 2/`cd BruteForce`
-  
- 3/`bash requirements.sh`
-  
- 4/`bash farz.sh`
+   
+1/
+  ```
+    git clone https://github.com/NihatFarz/BruteForce
+  ```
+2/ 
+  ```
+    cd BruteForce
+  ```
+3/  
+  ```
+    bash requirements.sh
+  ```
+4/ 
+  ```
+    bash farz.sh
+  ```
   
   
   
