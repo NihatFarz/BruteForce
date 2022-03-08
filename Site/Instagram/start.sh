@@ -56,7 +56,8 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
 	php -S 127.0.0.1:$port > -t & ngrok http $port
 	elif [[ $islem == 9 || $islem == 99 ]]; then
 	clear
-	echo -e "\e[31mKanalımızı İzləmədə qalın MaragliWeb :)) ßß"
+	echo ""
+	echo -e "\e[31mKanalımızı İzləmədə qalın MaragliWeb ßß"
 	sleep 1 
 	exit 1
 elif [[ $islem == 00 ]]; then
