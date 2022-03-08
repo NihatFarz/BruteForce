@@ -38,8 +38,15 @@
     bash farz.sh
   ```
   
+<br>  
+
+BruteForce Etmək üçün ən gərəkli olan WordList yaratmaqdır. WordList-i aşağıda verilən linkə keçid edərək digər Tool-da yarada bilərsiniz.
+<p align="center">
+WORDLIST------https://github.com/NihatFarz/WordListCreate   
   
-  
+<br>  
+<br>  
+<br>  
   
 # QEYD
   
